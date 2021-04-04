@@ -5,5 +5,5 @@ resource "local_file" "test" {
 
 
 output "cluster_url" {
-    value = "https://mocki.io/fake-json-api"
+    value = "https://jsonplaceholder.typicode.com/todos"
 }
