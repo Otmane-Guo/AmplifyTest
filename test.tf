@@ -5,5 +5,5 @@ resource "local_file" "test" {
 
 
 output "cluster_url" {
-    value = "https://invalid-link.com"
+    value = "https://mocki.io/fake-json-api"
 }
