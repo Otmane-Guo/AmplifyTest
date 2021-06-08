@@ -1,5 +1,5 @@
 resource "local_file" "test" {
-    filename = "/home/ops/Bureau/grilo-cli/src/test.txt"
+    filename = "test.txt"
     content = "this is a test file"  
   }
 
